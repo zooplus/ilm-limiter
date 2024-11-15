@@ -397,7 +397,6 @@ def main():
         return 1
 
     # create and run limiter
-    limiter = Ilm_limiter(es, args.dry_run)
     try:
         limiter = Ilm_limiter(es, args.dry_run)
         limiter.run_limits()
